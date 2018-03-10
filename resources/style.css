@@ -1,0 +1,151 @@
+/* UNIVERSAL */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+
+/* HEADER */
+
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 100%;
+}
+
+header .logo {
+  padding-left: 10px;
+  height: 50px;
+}
+
+header a {
+  color: seashell;
+  padding-right: 20px;
+}
+
+/* MAIN */
+main {
+  padding-top: 63px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* MISSION */
+
+#Mission {
+  background-image: url("images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  display: flex;
+}
+
+.Mission-text {
+  display: block;
+  background-color: black;
+  width: 1200px;
+}
+
+
+/* FEATURED */
+
+#Featured {
+  width: 1000px;
+  margin: 60px auto;
+
+}
+
+.tea-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-card {
+  padding: 10px;
+  display: block;
+  flex-grow: 1;
+}
+
+.tea-card img {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+}
+
+.tea-card span {
+  display: block;
+  margin: 10px;
+}
+
+
+/* LOCATIONS */
+
+ #Locations {
+   width: 1200px;
+   height: 500px;
+   background-image: url("images/img-locations-background.jpg");
+ }
+
+#Locations h2 {
+  display: block;
+  padding-top: 80px;
+  margin-bottom: 15px;
+}
+
+ .location-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .location-card {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   background-color: black;
+   justify-content: center;
+   margin: 0 20px;
+ }
+
+.location-card h3 {
+  padding: 5px;
+}
+
+.location-card span {
+  margin-bottom: 35px;
+}
+
+
+ /* CONTACT */
+
+#Contact {
+  height: 200px;
+}
+
+
+ /* FOOTER */
+
+ footer {
+   text-align: left;
+ }
+
+ footer span {
+   padding-left: 20px;
+ }
